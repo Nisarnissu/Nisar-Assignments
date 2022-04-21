@@ -1,7 +1,95 @@
 /* Our CSS file. */
 
 
-.container, .content {
-width: 100%;
-height: 100%;
-}
+#container{
+    width: 100%;
+    height: 100%;
+    border: 1px solid black;
+    }
+    header{
+     width: 100%;
+     border: 1px solid black;
+     background-color: lightgrey;
+    }
+    header,img,form{
+       display: inline-block;
+    }
+    form{
+        float:right;
+        padding-right: 20px;
+        padding-top: 20px;
+    }
+    .logo{
+        padding-top: 5px;
+    }
+    .navbar,nav{
+        width: 98%;
+        text-align: center;
+        margin: 10px;
+        border:1px solid black;
+    }
+    ul{
+        list-style: none;
+        
+    }
+    nav ul li{
+        display: inline-block;
+        margin-left: 50px;
+        margin-right : 50px;
+    }
+    a{
+        text-decoration:none;
+        color: inherit;
+    }
+    .content-body{
+     width: 100%;
+     border: 1px solid black;
+     position: relative;
+    }
+    .left-sidebar{
+        width: 30%;
+        margin-top: 10px;
+        border: 1px solid black;
+        padding-bottom: 28px;
+    }
+    .right-sidebar{
+        width: 30%;
+       
+        margin-top: 10px;
+        border: 1px solid black;
+    
+        padding-bottom: 142px;
+        padding-right: 100px;
+    }
+    section{
+        width: 100%;
+        margin-top: 10px;
+        border: 1px solid black;
+    }
+    .left-sidebar,section,.right-sidebar{
+        display: inline-block;
+        float: left;
+        width: 30%;
+        text-align: center;
+    
+    }
+    .grid-img{
+        width: 100px;
+        height: 200px;
+        margin: 5px;
+    
+    }
+    aside ul li{
+        margin-top: 20px;
+        margin-bottom: 20px; 
+    }
+    footer{
+        display: inline-block;
+        position: static;
+        bottom:0px;
+        padding-top: 50px;
+        text-align: center;
+        
+    }
+    
+    
