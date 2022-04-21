@@ -2,6 +2,33 @@
 
 
 .container, .content {
-width: 100%;
-height: 100%;
+width: auto;
+height: auto;
+border: 1px solid black;
+background-color: burlywood;
+}
+.row{
+    display:block;
+    width: 100%;
+    height: 500px;
+    padding-bottom: 30px;
+}
+.col{
+    display: inline-block;
+    width: 40%;
+    
+    margin: 10px;
+    float:left;
+    padding-right: 100px;
+    height:inherit;
+}
+img{
+    height: 500px;
+    width: 633px;
+}
+h1{
+    padding-top: 100px;
+    padding-left: 100px;
+    text-align: center;
+
 }
